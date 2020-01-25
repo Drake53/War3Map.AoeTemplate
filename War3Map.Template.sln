@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "War3Map.Template.Launcher", "War3Map.Template.Launcher\War3Map.Template.Launcher.csproj", "{7467C647-3C6F-437C-A761-7E37542F577C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "War3Map.Template.Launcher", "War3Map.Template.Launcher\War3Map.Template.Launcher.csproj", "{7467C647-3C6F-437C-A761-7E37542F577C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "War3Map.Template.Source", "War3Map.Template.Source\War3Map.Template.Source.csproj", "{F93D82E3-B6B7-4BBD-B87D-8AD0969BFC94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "War3Map.Template.Source", "War3Map.Template.Source\War3Map.Template.Source.csproj", "{F93D82E3-B6B7-4BBD-B87D-8AD0969BFC94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScenarioConverter", "..\..\ScnToW3x\ScenarioConverter.csproj", "{67181A11-BEB6-40A7-B3DD-F8AC5AAB7960}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F93D82E3-B6B7-4BBD-B87D-8AD0969BFC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F93D82E3-B6B7-4BBD-B87D-8AD0969BFC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F93D82E3-B6B7-4BBD-B87D-8AD0969BFC94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67181A11-BEB6-40A7-B3DD-F8AC5AAB7960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67181A11-BEB6-40A7-B3DD-F8AC5AAB7960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67181A11-BEB6-40A7-B3DD-F8AC5AAB7960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67181A11-BEB6-40A7-B3DD-F8AC5AAB7960}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
