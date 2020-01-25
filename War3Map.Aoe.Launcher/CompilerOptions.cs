@@ -1,16 +1,13 @@
-﻿using War3Net.Build.Environment;
-using War3Net.Build.Script;
+﻿using War3Net.Build.Script;
 using War3Net.IO.Mpq;
 
-namespace War3Map.Template.Launcher
+namespace War3Map.Aoe.Launcher
 {
     internal static class CompilerOptions
     {
         public static ScriptCompilerOptions GetCompilerOptions(string sourceDirectory, string outputDirectory)
         {
             var scriptCompilerOptions = new ScriptCompilerOptions(CSharpLua.CoreSystem.CoreSystemProvider.GetCoreSystemFiles());
-
-            scriptCompilerOptions.MapInfo = Info.GetMapInfo();
 
             scriptCompilerOptions.SourceDirectory = sourceDirectory;
             scriptCompilerOptions.OutputDirectory = outputDirectory;
