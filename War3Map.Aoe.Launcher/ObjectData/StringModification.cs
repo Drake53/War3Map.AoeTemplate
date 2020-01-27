@@ -22,5 +22,10 @@ namespace War3Map.Aoe.Launcher.ObjectData
         {
             writer.WriteString(_modification);
         }
+
+        public override string ToString()
+        {
+            return _modification;
+        }
     }
 }

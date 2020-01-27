@@ -21,5 +21,10 @@ namespace War3Map.Aoe.Launcher.ObjectData
             writer.Write((byte)_modification);
             writer.Write((byte)0);
         }
+
+        public override string ToString()
+        {
+            return _modification.ToString();
+        }
     }
 }
