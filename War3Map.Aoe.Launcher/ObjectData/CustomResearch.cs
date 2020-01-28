@@ -54,6 +54,7 @@ namespace War3Map.Aoe.Launcher.ObjectData
 
         public void SetHotkey(char hotkey)
         {
+            hotkey = $"{hotkey}".ToUpper()[0];
             var (X, Y) = ButtonPositionProvider.GetButtonPosition(hotkey);
 
             _modification.AddModification(new CharModification(ModHotkey, hotkey));

@@ -8,7 +8,7 @@ namespace War3Map.Aoe.Launcher.ObjectData
 
         static ButtonPositionProvider()
         {
-            var _buttonPositions = new Dictionary<char, (int X, int Y)>();
+            _buttonPositions = new Dictionary<char, (int X, int Y)>();
             _buttonPositions.Add('Q', (0, 0));
             _buttonPositions.Add('W', (1, 0));
             _buttonPositions.Add('E', (2, 0));
@@ -26,7 +26,6 @@ namespace War3Map.Aoe.Launcher.ObjectData
         // TODO: input position and output hotkey instead of having hotkey as input? (makes locatization for QWERTZ keyboards easier)
         public static (int X, int Y) GetButtonPosition(char hotkey)
         {
-            hotkey = $"{hotkey}".ToUpper()[0];
             if (_buttonPositions.TryGetValue(hotkey, out var pos))
             {
                 return pos;
