@@ -4,6 +4,15 @@ namespace War3Map.Aoe.Source.Technology
 {
     public static class ResearchId
     {
+        public static readonly int AsianStoneAge = FourCC("R00a");
+        public static readonly int EgyptianStoneAge = FourCC("R00e");
+        public static readonly int GreekStoneAge = FourCC("R00g");
+        public static readonly int MesopotamianStoneAge = FourCC("R00m");
+        public static readonly int RomanStoneAge = FourCC("R00r");
+
+        // codes: 'R' {buildingChar} {type} {level}
+        // researches with same name as unit it unlocks, but different icon, have the 'Research' prefix
+
         // Town Center (q)
         public static readonly int ToolAge = FourCC("Rq00");
         public static readonly int BronzeAge = FourCC("Rq01");
@@ -30,23 +39,23 @@ namespace War3Map.Aoe.Source.Technology
         public static readonly int Metallurgy = FourCC("Rr02");
         public static readonly int LeatherArmorInfantry = FourCC("Rr10");
         public static readonly int ScaleArmorInfantry = FourCC("Rr11");
-        public static readonly int ChainmailInfantry = FourCC("Rr12");
+        public static readonly int ChainMailInfantry = FourCC("Rr12");
         public static readonly int LeatherArmorArchers = FourCC("Rr20");
         public static readonly int ScaleArmorArchers = FourCC("Rr21");
-        public static readonly int ChainmailArchers = FourCC("Rr22");
+        public static readonly int ChainMailArchers = FourCC("Rr22");
         public static readonly int LeatherArmorCavalry = FourCC("Rr30");
         public static readonly int ScaleArmorCavalry = FourCC("Rr31");
-        public static readonly int ChainmailCavalry = FourCC("Rr32");
+        public static readonly int ChainMailCavalry = FourCC("Rr32");
         public static readonly int BronzeShield = FourCC("Rr40");
         public static readonly int IronShield = FourCC("Rr41");
         public static readonly int TowerShield = FourCC("Rr42");
 
         // Granary (g)
-        public static readonly int SmallWall = FourCC("Rg00");
+        public static readonly int ResearchSmallWall = FourCC("Rg00");
         public static readonly int MediumWall = FourCC("Rg01");
         public static readonly int Fortification = FourCC("Rg02");
-        public static readonly int WatchTower = FourCC("Rg10");
-        public static readonly int SentryTower = FourCC("Rg11");
+        public static readonly int ResearchWatchTower = FourCC("Rg10");
+        public static readonly int ResearchSentryTower = FourCC("Rg11");
         public static readonly int GuardTower = FourCC("Rg12");
         public static readonly int BallistaTower = FourCC("Rg13");
 
@@ -58,12 +67,12 @@ namespace War3Map.Aoe.Source.Technology
         public static readonly int Legion = FourCC("Rb13");
 
         // Dock (d)
-        public static readonly int FishingShip = FourCC("Rd00");
-        public static readonly int MerchantShip = FourCC("Rd10");
-        public static readonly int HeavyTransport = FourCC("Rd20");
-        public static readonly int WarGalley = FourCC("Rd30");
-        public static readonly int Trireme = FourCC("Rd31");
-        public static readonly int CatapultTrireme = FourCC("Rd40");
+        public static readonly int ResearchFishingShip = FourCC("Rd00");
+        public static readonly int ResearchMerchantShip = FourCC("Rd10");
+        public static readonly int ResearchHeavyTransport = FourCC("Rd20");
+        public static readonly int ResearchWarGalley = FourCC("Rd30");
+        public static readonly int ResearchTrireme = FourCC("Rd31");
+        public static readonly int ResearchCatapultTrireme = FourCC("Rd40");
         public static readonly int Juggernaught = FourCC("Rd41");
 
         // Archery Range (a)
@@ -72,9 +81,9 @@ namespace War3Map.Aoe.Source.Technology
         public static readonly int HeavyHorseArcher = FourCC("Ra10");
 
         // Stable (s)
-        public static readonly int HeavyCavalry = FourCC("Rs00");
-        public static readonly int Cataphract = FourCC("Rs01");
-        public static readonly int ScytheChariot = FourCC("Rs10");
+        public static readonly int ScytheChariot = FourCC("Rs00");
+        public static readonly int ResearchHeavyCavalry = FourCC("Rs10");
+        public static readonly int Cataphract = FourCC("Rs11");
         public static readonly int ArmoredElephant = FourCC("Rs20");
 
         // Market (m)
@@ -92,8 +101,8 @@ namespace War3Map.Aoe.Source.Technology
 
         // Government Center (v)
         public static readonly int Nobility = FourCC("Rv00");
-        public static readonly int Architecture = FourCC("Rv10");
-        public static readonly int Writing = FourCC("Rv20");
+        public static readonly int Writing = FourCC("Rv10");
+        public static readonly int Architecture = FourCC("Rv20");
         public static readonly int Logistics = FourCC("Rv30");
         public static readonly int Aristocracy = FourCC("Rv40");
         public static readonly int Ballistics = FourCC("Rv50");
@@ -112,11 +121,11 @@ namespace War3Map.Aoe.Source.Technology
         public static readonly int Martyrdom = FourCC("Rt80");
 
         // Academy (c)
-        public static readonly int Phalanx = FourCC("Rc00");
+        public static readonly int ResearchPhalanx = FourCC("Rc00");
         public static readonly int Centurion = FourCC("Rc01");
 
         // Siege Workshop (u)
-        public static readonly int Catapult = FourCC("Ru00");
+        public static readonly int ResearchCatapult = FourCC("Ru00");
         public static readonly int HeavyCatapult = FourCC("Ru01");
         public static readonly int Helepolis = FourCC("Ru10");
     }

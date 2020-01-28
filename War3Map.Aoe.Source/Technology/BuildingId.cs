@@ -23,7 +23,7 @@ namespace War3Map.Aoe.Source.Technology
         public static readonly int Market = FourCC("e084");
         public static readonly int GovernmentCenter = FourCC("e082");
         public static readonly int Temple = FourCC("e104");
-        public static readonly int TownCenter = FourCC("e109");
+        // public static readonly int TownCenter = FourCC("e109");
         public static readonly int SiegeWorkshop = FourCC("e049");
         public static readonly int Academy = FourCC("e000");
         public static readonly int Wonder = FourCC("e276");
@@ -35,6 +35,8 @@ namespace War3Map.Aoe.Source.Technology
 
         // =========
         // Stone Age
+        public static readonly int StoneTownCenter = FourCC("e109");
+
         public static readonly int StoneAsianGranary = FourCC("gb0a");
         public static readonly int StoneEgyptianGranary = FourCC("gb0e");
         public static readonly int StoneGreekGranary = FourCC("gb0g");
