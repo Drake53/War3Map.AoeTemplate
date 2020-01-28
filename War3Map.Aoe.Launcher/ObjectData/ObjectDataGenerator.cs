@@ -26,7 +26,7 @@ namespace War3Map.Aoe.Launcher.ObjectData
             using var fileStream = File.Create(outputFile);
             using var writer = new BinaryWriter(fileStream);
 
-            writer.Write(1); // File Version
+            writer.Write(2); // File Version
             writer.Write(0); // Amount of base units modified
 
             writer.Write(objects.Count());

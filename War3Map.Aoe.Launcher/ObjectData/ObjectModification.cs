@@ -37,6 +37,16 @@ namespace War3Map.Aoe.Launcher.ObjectData
             return this;
         }
 
+        public FieldModification GetModification(int id)
+        {
+            if (_mods.TryGetValue(id, out var value))
+            {
+                return value;
+            }
+
+            return null;
+        }
+
         public IEnumerator<FieldModification> GetEnumerator()
         {
             return ((IEnumerable<FieldModification>)_mods.Values).GetEnumerator();
