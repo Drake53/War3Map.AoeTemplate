@@ -1,0 +1,67 @@
+{
+  "name": "Temple",
+  "wood": "200",
+  "time": "60",
+  "health": "350",
+  "size": "3",
+  "unitlines": [
+    {
+      "type": "Priest",
+      "gold": "125",
+      "time": "50",
+      "vision": "4",
+      "units": [
+        {
+          "name": "Priest",
+          "health": "25",
+          "attackrange": "10",
+          "speed": "0.8"
+        }
+      ]
+    }
+  ],
+  "technologies": [
+    {
+      "name": "Astrology",
+      "description": "+30% conversion chance",
+      "gold": "150",
+      "time": "50"
+    },
+    {
+      "name": "Mysticism",
+      "description": "Doubles priest hitpoints",
+      "gold": "120",
+      "time": "50"
+    },
+    {
+      "name": "Polytheism",
+      "description": "+40% priest movement",
+      "gold": "120",
+      "time": "50"
+    },
+    {
+      "name": "Fanaticism",
+      "description": "+50% priest rejuvenation",
+      "gold": "150",
+      "time": "60"
+    },
+    {
+      "name": "Monotheism",
+      "description": "Allows conversion of enemy buildings & priests",
+      "gold": "350",
+      "time": "75"
+    },
+    {
+      "name": "Afterlife",
+      "description": "+3 conversion range",
+      "gold": "275",
+      "time": "75"
+    },
+    {
+      "name": "Jihad",
+      "description": "Greater villager speed, attack, hitpoints; less gathering",
+      "gold": "120",
+      "time": "60"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Storage Pit",
+  "wood": "120",
+  "time": "30",
+  "health": "350",
+  "size": "3",
+  "technologies": [
+    {
+      "name": "Toolworking",
+      "description": "+2 infantry & cavalry attack",
+      "food": "100",
+      "time": "30"
+    },
+    {
+      "name": "Metalworking",
+      "description": "+2 infantry & cavalry attack",
+      "food": "200",
+      "gold": "120",
+      "time": "85"
+    },
+    {
+      "name": "Metallurgy",
+      "description": "+3 infantry & cavalry attack",
+      "food": "300",
+      "gold": "180",
+      "time": "100"
+    },
+    {
+      "name": "Bronze Shield",
+      "description": "+1 infantry piercing armor",
+      "food": "150",
+      "gold": "180",
+      "time": "50"
+    },
+    {
+      "name": "Iron Shield",
+      "description": "+1 infantry piercing armor",
+      "food": "200",
+      "gold": "320",
+      "time": "75"
+    },
+    {
+      "name": "Leather Armor, Archers",
+      "description": "+2 archer armor",
+      "food": "100",
+      "time": "30"
+    },
+    {
+      "name": "Scale Armor, Archers",
+      "description": "+2 archer armor",
+      "food": "125",
+      "gold": "50",
+      "time": "60"
+    },
+    {
+      "name": "Chain Mail, Archers",
+      "description": "+2 archer armor",
+      "food": "150",
+      "gold": "100",
+      "time": "75"
+    },
+    {
+      "name": "Leather Armor, Cavalry",
+      "description": "+2 cavalry armor",
+      "food": "125",
+      "time": "30"
+    },
+    {
+      "name": "Scale Armor Cavalry",
+      "description": "+2 cavalry armor",
+      "food": "150",
+      "gold": "50",
+      "time": "60"
+    },
+    {
+      "name": "Chain Mail, Cavalry",
+      "description": "+2 cavalry armor",
+      "food": "175",
+      "gold": "100",
+      "time": "75"
+    },
+    {
+      "name": "Leather Armor, Infantry",
+      "description": "+2 infantry armor",
+      "food": "75",
+      "time": "30"
+    },
+    {
+      "name": "Scale Armor, Infantry",
+      "description": "+2 infantry armor",
+      "food": "100",
+      "gold": "50",
+      "time": "60"
+    },
+    {
+      "name": "Chain Mail, Infantry",
+      "description": "+2 infantry armor",
+      "food": "125",
+      "gold": "100",
+      "time": "75"
+    }
+  ]
+}

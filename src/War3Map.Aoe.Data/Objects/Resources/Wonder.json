@@ -1,0 +1,9 @@
+{
+  "name": "Wonder",
+  "wood": "1000",
+  "gold": "1000",
+  "stone": "1000",
+  "time": "7200",
+  "health": "500",
+  "size": "5"
+}

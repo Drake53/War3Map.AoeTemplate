@@ -1,0 +1,86 @@
+{
+  "name": "Market",
+  "wood": "150",
+  "time": "40",
+  "health": "350",
+  "size": "3",
+  "technologies": [
+    {
+      "name": "Woodworking",
+      "description": "+2 wood cutting; +1 missile weapon range",
+      "wood": "75",
+      "food": "120",
+      "time": "60"
+    },
+    {
+      "name": "Artisanship",
+      "description": "+2 wood cutting; +1 missile weapon range",
+      "wood": "150",
+      "food": "170",
+      "time": "60"
+    },
+    {
+      "name": "Craftsmanship",
+      "description": "+2 wood cutting; +1 missile weapon range",
+      "wood": "200",
+      "food": "240",
+      "time": "80"
+    },
+    {
+      "name": "Stone Mining",
+      "description": "+3 stone mining",
+      "food": "100",
+      "stone": "50",
+      "time": "30"
+    },
+    {
+      "name": "Siegecraft",
+      "description": "+3 stone mining; villagers destroy walls & towers",
+      "food": "190",
+      "stone": "100",
+      "time": "60"
+    },
+    {
+      "name": "Gold Mining",
+      "description": "+3 gold mining",
+      "wood": "100",
+      "food": "120",
+      "time": "50"
+    },
+    {
+      "name": "Coinage",
+      "description": "+25% gold mining; tribute for free",
+      "food": "200",
+      "gold": "120",
+      "time": "60"
+    },
+    {
+      "name": "Domestication",
+      "description": "+75 farm food production",
+      "wood": "50",
+      "food": "200",
+      "time": "40"
+    },
+    {
+      "name": "Plow",
+      "description": "+75 farm food production",
+      "wood": "75",
+      "food": "250",
+      "time": "75"
+    },
+    {
+      "name": "Irrigation",
+      "description": "+75 farm food production",
+      "wood": "100",
+      "food": "300",
+      "time": "100"
+    },
+    {
+      "name": "Wheel",
+      "description": "faster villager movement",
+      "wood": "75",
+      "food": "175",
+      "time": "75"
+    }
+  ]
+}

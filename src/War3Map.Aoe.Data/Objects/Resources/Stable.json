@@ -1,0 +1,129 @@
+{
+  "name": "Stable",
+  "wood": "150",
+  "time": "40",
+  "health": "350",
+  "size": "3",
+  "unitlines": [
+    {
+      "type": "Cavalry",
+      "food": "100",
+      "time": "30",
+      "vision": "8",
+      "units": [
+        {
+          "name": "Scout",
+          "health": "60",
+          "attack": "3",
+          "attacktime": "0.9",
+          "attackrange": "1",
+          "speed": "2.0"
+        }
+      ]
+    },
+    {
+      "type": "Cavalry",
+      "food": "70",
+      "gold": "80",
+      "time": "40",
+      "vision": "4",
+      "units": [
+        {
+          "name": "Cavalry",
+          "health": "150",
+          "attack": "8",
+          "attacktime": "1.3",
+          "attackrange": "1",
+          "speed": "2.0"
+        },
+        {
+          "name": "Heavy Cavalry",
+          "health": "150",
+          "attack": "10",
+          "attacktime": "1.3",
+          "attackrange": "1",
+          "armor": "1",
+          "missilearmor": "1",
+          "speed": "2.0"
+        },
+        {
+          "name": "Cataphract",
+          "health": "180",
+          "attack": "12",
+          "attacktime": "1.3",
+          "attackrange": "1",
+          "armor": "3",
+          "missilearmor": "1",
+          "speed": "2.0"
+        }
+      ]
+    },
+    {
+      "type": "Cavalry",
+      "wood": "60",
+      "food": "40",
+      "time": "40",
+      "vision": "4",
+      "units": [
+        {
+          "name": "Chariot",
+          "health": "100",
+          "attack": "7",
+          "attacktime": "1.4",
+          "attackrange": "1",
+          "speed": "2.0"
+        }
+      ]
+    },
+    {
+      "type": "Cavalry",
+      "food": "170",
+      "gold": "40",
+      "time": "50",
+      "vision": "4",
+      "units": [
+        {
+          "name": "War Elephant",
+          "health": "600",
+          "attack": "15",
+          "attacktime": "1.0",
+          "attackrange": "1",
+          "speed": "0.9"
+        }
+      ]
+    },
+    {
+      "type": "Cavalry",
+      "food": "70",
+      "gold": "60",
+      "time": "30",
+      "vision": "4",
+      "units": [
+        {
+          "name": "Camel Rider",
+          "health": "125",
+          "attack": "6",
+          "attacktime": "1.5",
+          "attackrange": "1",
+          "speed": "1.8"
+        }
+      ]
+    }
+  ],
+  "technologies": [
+    {
+      "name": "Heavy Cavalry",
+      "description": "Upgrades Cavalry to Heavy Cavalry",
+      "food": "350",
+      "gold": "125",
+      "time": "90"
+    },
+    {
+      "name": "Cataphract",
+      "description": "Upgrades Heavy Cavalry to Cataphracts",
+      "food": "2000",
+      "gold": "850",
+      "time": "150"
+    }
+  ]
+}

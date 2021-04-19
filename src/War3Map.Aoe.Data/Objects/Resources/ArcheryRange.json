@@ -1,0 +1,135 @@
+{
+  "name": "Archery Range",
+  "wood": "150",
+  "time": "40",
+  "health": "350",
+  "size": "3",
+  "unitlines": [
+    {
+      "type": "MissileWeapon",
+      "wood": "20",
+      "food": "40",
+      "time": "30",
+      "vision": "5",
+      "units": [
+        {
+          "name": "Bowman",
+          "health": "35",
+          "attack": "3",
+          "attacktime": "1.4",
+          "attackrange": "5",
+          "speed": "1.2"
+        }
+      ]
+    },
+    {
+      "type": "MissileWeapon",
+      "food": "40",
+      "gold": "20",
+      "time": "30",
+      "vision": "5",
+      "units": [
+        {
+          "name": "Improved Bowman",
+          "health": "40",
+          "attack": "4",
+          "attacktime": "1.4",
+          "attackrange": "6",
+          "speed": "1.2"
+        },
+        {
+          "name": "Composite Bowman",
+          "health": "45",
+          "attack": "5",
+          "attacktime": "1.4",
+          "attackrange": "7",
+          "speed": "1.2"
+        }
+      ]
+    },
+    {
+      "type": "MissileWeapon",
+      "wood": "70",
+      "food": "40",
+      "time": "40",
+      "vision": "5",
+      "units": [
+        {
+          "name": "Chariot Archer",
+          "health": "70",
+          "attack": "4",
+          "attacktime": "1.5",
+          "attackrange": "7",
+          "speed": "2.0"
+        }
+      ]
+    },
+    {
+      "type": "MissileWeapon",
+      "food": "180",
+      "gold": "60",
+      "time": "50",
+      "vision": "5",
+      "units": [
+        {
+          "name": "Elephant Archer",
+          "health": "600",
+          "attack": "5",
+          "attacktime": "1.5",
+          "attackrange": "7",
+          "speed": "0.9"
+        }
+      ]
+    },
+    {
+      "type": "MissileWeapon",
+      "food": "50",
+      "gold": "70",
+      "time": "40",
+      "vision": "5",
+      "units": [
+        {
+          "name": "Horse Archer",
+          "health": "60",
+          "attack": "7",
+          "attacktime": "1.5",
+          "attackrange": "7",
+          "missilearmor": "2",
+          "speed": "2.2"
+        },
+        {
+          "name": "Heavy Horse Archer",
+          "health": "90",
+          "attack": "8",
+          "attacktime": "1.5",
+          "attackrange": "7",
+          "missilearmor": "2",
+          "speed": "2.5"
+        }
+      ]
+    }
+  ],
+  "technologies": [
+    {
+      "name": "Improved Bow",
+      "description": "Allows creation of Improved Bowmen",
+      "wood": "80",
+      "food": "140",
+      "time": "60"
+    },
+    {
+      "name": "Composite Bow",
+      "description": "Upgrades Improved Bowmen to Composite Bowmen",
+      "wood": "100",
+      "food": "180",
+      "time": "85"
+    },
+    {
+      "name": "Heavy Horse Archer",
+      "description": "Upgrades Horse Archers to Heavy Horse Archers",
+      "food": "1750",
+      "gold": "800",
+      "time": "150"
+    }
+  ]
+}

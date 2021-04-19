@@ -1,0 +1,47 @@
+{
+  "name": "Town Center",
+  "wood": "200",
+  "time": "60",
+  "health": "600",
+  "size": "3",
+  "housing": "4",
+  "unitlines": [
+    {
+      "type": "Villager",
+      "food": "50",
+      "time": "20",
+      "vision": "4",
+      "units": [
+        {
+          "name": "Villager",
+          "health": "25",
+          "attack": "3",
+          "attacktime": "1.5",
+          "attackrange": "1",
+          "speed": "1.1"
+        }
+      ]
+    }
+  ],
+  "technologies": [
+    {
+      "name": "Tool Age",
+      "description": "Upgrades civilization from Stone to Tool Age",
+      "food": "500",
+      "time": "120"
+    },
+    {
+      "name": "Bronze Age",
+      "description": "Upgrades civilization from Tool to Bronze Age",
+      "food": "800",
+      "time": "140"
+    },
+    {
+      "name": "Iron Age",
+      "description": "Upgrades civilization from Bronze to Iron Age",
+      "food": "1000",
+      "gold": "800",
+      "time": "160"
+    }
+  ]
+}

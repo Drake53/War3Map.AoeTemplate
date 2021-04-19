@@ -1,0 +1,58 @@
+{
+  "name": "Government Center",
+  "wood": "175",
+  "time": "60",
+  "health": "350",
+  "size": "3",
+  "technologies": [
+    {
+      "name": "Architecture",
+      "description": "-33% construction time, +20% building hitpoints",
+      "wood": "175",
+      "food": "150",
+      "time": "50"
+    },
+    {
+      "name": "Nobility",
+      "description": "+15% chariot, cavalry, horse archer hitpoints",
+      "food": "175",
+      "gold": "120",
+      "time": "70"
+    },
+    {
+      "name": "Writing",
+      "description": "shared exploration with allies",
+      "food": "200",
+      "gold": "75",
+      "time": "60"
+    },
+    {
+      "name": "Aristocracy",
+      "description": "+25% Academy unit movement",
+      "food": "175",
+      "gold": "150",
+      "time": "60"
+    },
+    {
+      "name": "Alchemy",
+      "description": "+1 missile unit attack",
+      "food": "250",
+      "gold": "200",
+      "time": "100"
+    },
+    {
+      "name": "Ballistics",
+      "description": "Improved missile & siege accuracy",
+      "food": "200",
+      "gold": "50",
+      "time": "60"
+    },
+    {
+      "name": "Engineering",
+      "description": "+2 siege weapon range",
+      "wood": "100",
+      "food": "200",
+      "time": "70"
+    }
+  ]
+}

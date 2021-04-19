@@ -1,0 +1,8 @@
+{
+  "name": "House",
+  "wood": "30",
+  "time": "20",
+  "health": "75",
+  "size": "2",
+  "housing": "4"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Granary",
+  "wood": "120",
+  "time": "30",
+  "health": "350",
+  "size": "3",
+  "technologies": [
+    {
+      "name": "Small Wall",
+      "description": "Allows construction of Small Wall",
+      "food": "50",
+      "time": "10"
+    },
+    {
+      "name": "Medium Wall",
+      "description": "Allows construction of Medium Wall",
+      "food": "180",
+      "stone": "50",
+      "time": "60"
+    },
+    {
+      "name": "Fortification",
+      "description": "Allows construction of Fortification",
+      "food": "300",
+      "stone": "175",
+      "time": "75"
+    },
+    {
+      "name": "Watch Tower",
+      "description": "Allows construction of Watch Tower",
+      "food": "50",
+      "time": "10"
+    },
+    {
+      "name": "Sentry Tower",
+      "description": "Allows construction of Sentry Tower",
+      "food": "120",
+      "stone": "50",
+      "time": "30"
+    },
+    {
+      "name": "Guard Tower",
+      "description": "Allows construction of Guard Tower",
+      "food": "300",
+      "stone": "100",
+      "time": "75"
+    },
+    {
+      "name": "Ballista Tower",
+      "description": "Allows construction of Ballista Tower",
+      "food": "1800",
+      "stone": "750",
+      "time": "150"
+    }
+  ]
+}

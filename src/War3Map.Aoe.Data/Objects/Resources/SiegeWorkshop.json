@@ -1,0 +1,90 @@
+{
+  "name": "Siege Workshop",
+  "wood": "200",
+  "time": "60",
+  "health": "350",
+  "size": "3",
+  "unitlines": [
+    {
+      "type": "SiegeWeapon",
+      "wood": "180",
+      "gold": "80",
+      "time": "60",
+      "vision": "4",
+      "units": [
+        {
+          "name": "Stone Thrower",
+          "health": "75",
+          "attack": "50",
+          "attacktime": "5.0",
+          "attackrange": "10",
+          "speed": "0.8"
+        },
+        {
+          "name": "Catapult",
+          "health": "75",
+          "attack": "50",
+          "attacktime": "5.0",
+          "attackrange": "12",
+          "speed": "0.8"
+        },
+        {
+          "name": "Heavy Catapult",
+          "health": "150",
+          "attack": "60",
+          "attacktime": "5.0",
+          "attackrange": "13",
+          "speed": "0.8"
+        }
+      ]
+    },
+    {
+      "type": "MissileWeapon",
+      "wood": "100",
+      "gold": "80",
+      "time": "50",
+      "vision": "4",
+      "units": [
+        {
+          "name": "Ballista",
+          "health": "55",
+          "attack": "40",
+          "attacktime": "3.0",
+          "attackrange": "9",
+          "speed": "0.8"
+        },
+        {
+          "name": "Helepolis",
+          "health": "55",
+          "attack": "40",
+          "attacktime": "1.5",
+          "attackrange": "10",
+          "speed": "0.8"
+        }
+      ]
+    }
+  ],
+  "technologies": [
+    {
+      "name": "Catapult",
+      "description": "Upgrades Stone Throwers to Catapults",
+      "wood": "250",
+      "food": "300",
+      "time": "100"
+    },
+    {
+      "name": "Heavy Catapult",
+      "description": "Upgrades Catapults to Heavy Catapults",
+      "wood": "900",
+      "food": "1800",
+      "time": "150"
+    },
+    {
+      "name": "Helepolis",
+      "description": "Upgrades Ballistas to Helepolis",
+      "wood": "1000",
+      "food": "1500",
+      "time": "150"
+    }
+  ]
+}

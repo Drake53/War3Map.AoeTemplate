@@ -1,0 +1,171 @@
+{
+  "name": "Dock",
+  "wood": "100",
+  "time": "50",
+  "health": "350",
+  "size": "3",
+  "unitlines": [
+    {
+      "type": "MissileWeapon",
+      "wood": "135",
+      "time": "30",
+      "vision": "8",
+      "units": [
+        {
+          "name": "Scout Ship",
+          "health": "120",
+          "attack": "5",
+          "attacktime": "1.4",
+          "attackrange": "5",
+          "speed": "1.8"
+        },
+        {
+          "name": "War Galley",
+          "health": "160",
+          "attack": "8",
+          "attacktime": "1.5",
+          "attackrange": "6",
+          "speed": "1.8"
+        },
+        {
+          "name": "Trireme",
+          "health": "200",
+          "attack": "12",
+          "attacktime": "2.0",
+          "attackrange": "7",
+          "speed": "1.8"
+        }
+      ]
+    },
+    {
+      "type": "SiegeWeapon",
+      "wood": "135",
+      "gold": "75",
+      "time": "45",
+      "vision": "6",
+      "units": [
+        {
+          "name": "Catapult Trireme",
+          "health": "120",
+          "attack": "35",
+          "attacktime": "5.0",
+          "attackrange": "9",
+          "speed": "1.4"
+        },
+        {
+          "name": "Juggernaught",
+          "health": "200",
+          "attack": "35",
+          "attacktime": "5.0",
+          "attackrange": "10",
+          "speed": "1.4"
+        }
+      ]
+    },
+    {
+      "type": "None",
+      "wood": "50",
+      "time": "20",
+      "vision": "4",
+      "units": [
+        {
+          "name": "Fishing Boat",
+          "health": "45",
+          "speed": "1.45"
+        },
+        {
+          "name": "Fishing Ship",
+          "health": "75",
+          "speed": "2.1"
+        }
+      ]
+    },
+    {
+      "type": "None",
+      "wood": "100",
+      "time": "25",
+      "vision": "4",
+      "units": [
+        {
+          "name": "Trade Boat",
+          "health": "200",
+          "speed": "2.1"
+        },
+        {
+          "name": "Merchant Ship",
+          "health": "250",
+          "speed": "2.5"
+        }
+      ]
+    },
+    {
+      "type": "None",
+      "wood": "150",
+      "time": "38",
+      "vision": "4",
+      "units": [
+        {
+          "name": "Light Transport",
+          "health": "150",
+          "speed": "1.45"
+        },
+        {
+          "name": "Heavy Transport",
+          "health": "200",
+          "speed": "1.8"
+        }
+      ]
+    }
+  ],
+  "technologies": [
+    {
+      "name": "War Galley",
+      "description": "Upgrades Scouts to War Galleys",
+      "wood": "75",
+      "food": "150",
+      "time": "38"
+    },
+    {
+      "name": "Trireme",
+      "description": "Upgrades War Galleys to Triremes",
+      "wood": "100",
+      "food": "250",
+      "time": "40"
+    },
+    {
+      "name": "Catapult Trireme",
+      "description": "Allows construction of Catapult Triremes",
+      "wood": "100",
+      "food": "300",
+      "time": "50"
+    },
+    {
+      "name": "Juggernaught",
+      "description": "Upgrades Catapult Triremes to Juggernaughts",
+      "wood": "900",
+      "food": "2000",
+      "time": "150"
+    },
+    {
+      "name": "Fishing Ship",
+      "description": "Upgrades Fishing Boats to Fishing Ships",
+      "wood": "100",
+      "food": "50",
+      "time": "15"
+    },
+    {
+      "name": "Merchant Ship",
+      "description": "Upgrades Trade Boats to Merchant Ships",
+      "wood": "75",
+      "food": "200",
+      "time": "30"
+    },
+    {
+      "name": "Heavy Transport",
+      "description": "Upgrades Light Transport to Heavy Transport",
+      "wood": "125",
+      "food": "150",
+      "time": "38"
+    }
+  ]
+}

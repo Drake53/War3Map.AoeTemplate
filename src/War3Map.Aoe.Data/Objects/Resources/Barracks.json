@@ -1,0 +1,135 @@
+{
+  "name": "Barracks",
+  "wood": "125",
+  "time": "30",
+  "health": "350",
+  "size": "3",
+  "unitlines": [
+    {
+      "type": "Infantry",
+      "food": "50",
+      "time": "27",
+      "vision": "4",
+      "units": [
+        {
+          "name": "Clubman",
+          "health": "40",
+          "attack": "3",
+          "attacktime": "1.5",
+          "attackrange": "1",
+          "speed": "1.1"
+        },
+        {
+          "name": "Axeman",
+          "health": "50",
+          "attack": "5",
+          "attacktime": "1.5",
+          "attackrange": "1",
+          "speed": "1.1",
+          "technologyrequirement": "Axe"
+        }
+      ]
+    },
+    {
+      "type": "Infantry",
+      "food": "35",
+      "gold": "15",
+      "time": "27",
+      "vision": "4",
+      "units": [
+        {
+          "name": "Short Swordsman",
+          "health": "60",
+          "attack": "7",
+          "attacktime": "1.5",
+          "attackrange": "1",
+          "armor": "1",
+          "speed": "1.1"
+        },
+        {
+          "name": "Broad Swordsman",
+          "health": "70",
+          "attack": "9",
+          "attacktime": "1.5",
+          "attackrange": "1",
+          "armor": "1",
+          "speed": "1.1",
+          "technologyrequirement": "Broadsword"
+        },
+        {
+          "name": "Long Swordsman",
+          "health": "80",
+          "attack": "11",
+          "attacktime": "1.5",
+          "attackrange": "1",
+          "armor": "2",
+          "speed": "1.1",
+          "technologyrequirement": "Longsword"
+        },
+        {
+          "name": "Legion",
+          "health": "160",
+          "attack": "13",
+          "attacktime": "1.5",
+          "attackrange": "1",
+          "armor": "2",
+          "speed": "1.1",
+          "technologyrequirement": "Legion"
+        }
+      ]
+    },
+    {
+      "type": "Infantry",
+      "food": "40",
+      "stone": "10",
+      "time": "27",
+      "vision": "4",
+      "units": [
+        {
+          "name": "Slinger",
+          "health": "25",
+          "attack": "2",
+          "attacktime": "1.5",
+          "attackrange": "4",
+          "speed": "1.1"
+        }
+      ]
+    }
+  ],
+  "technologies": [
+    {
+      "name": "Axe",
+      "description": "Upgrades Clubmen to Axemen",
+      "food": "100",
+      "time": "40"
+    },
+    {
+      "name": "Shortsword",
+      "description": "Allows creation of Short Swordsmen",
+      "food": "120",
+      "gold": "50",
+      "time": "50"
+    },
+    {
+      "name": "Broadsword",
+      "description": "Upgrades Short Swordsmen to Broad Swordsmen",
+      "food": "140",
+      "gold": "50",
+      "time": "80"
+    },
+    {
+      "name": "Longsword",
+      "description": "Upgrades Broad Swordsmen to Long Swordsmen",
+      "food": "160",
+      "gold": "50",
+      "time": "90"
+    },
+    {
+      "name": "Legion",
+      "description": "Upgrades Long Swordsmen to Legions",
+      "food": "1400",
+      "gold": "600",
+      "time": "150"
+    }
+  ]
+}

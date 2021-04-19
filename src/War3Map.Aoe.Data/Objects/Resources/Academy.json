@@ -1,0 +1,61 @@
+{
+  "name": "Academy",
+  "wood": "200",
+  "time": "60",
+  "health": "350",
+  "size": "3",
+  "unitlines": [
+    {
+      "type": "Infantry",
+      "food": "60",
+      "gold": "40",
+      "time": "36",
+      "vision": "4",
+      "units": [
+        {
+          "name": "Hoplite",
+          "health": "120",
+          "attack": "17",
+          "attacktime": "1.5",
+          "attackrange": "1",
+          "armor": "5",
+          "speed": "0.9"
+        },
+        {
+          "name": "Phalanx",
+          "health": "120",
+          "attack": "20",
+          "attacktime": "1.5",
+          "attackrange": "1",
+          "armor": "7",
+          "speed": "0.9"
+        },
+        {
+          "name": "Centurion",
+          "health": "160",
+          "attack": "30",
+          "attacktime": "1.5",
+          "attackrange": "1",
+          "armor": "8",
+          "speed": "0.9"
+        }
+      ]
+    }
+  ],
+  "technologies": [
+    {
+      "name": "Phalanx",
+      "description": "Upgrades Hoplites to Phalanx",
+      "food": "300",
+      "gold": "100",
+      "time": "90"
+    },
+    {
+      "name": "Centurion",
+      "description": "Upgrades Phalanx to Centurion",
+      "food": "1800",
+      "gold": "700",
+      "time": "150"
+    }
+  ]
+}
